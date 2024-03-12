@@ -1,5 +1,5 @@
 
-import CookieAcceptancePopup from "./CookieAcceptancePopup"; // Assuming it's in the same directory
+import CookieAcceptancePopup from "./CookieAcceptancePopup"; 
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";

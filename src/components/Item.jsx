@@ -1,5 +1,5 @@
 import React from "react";
-import HeroIcon from "./HeroIcon"; // Make sure to import the HeroIcon component
+import HeroIcon from "./HeroIcon";
 
 const Item = ({ product, addToBasket }) => {
   return (

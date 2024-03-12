@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
-import nukaImage from "../images/Nuka.webp"; // Update the path to your nuka image
-import SherrifImage from "../images/Sherrif.webp"; // Update the path to your sunset image
+import nukaImage from "../images/Nuka.webp";
+import SherrifImage from "../images/Sherrif.webp"; 
 
 function PersonalDetails() {
   const [formData, setFormData] = useState({

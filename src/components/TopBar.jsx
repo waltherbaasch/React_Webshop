@@ -3,12 +3,12 @@ import FilterIcon from "@heroicons/react/solid/FilterIcon";
 import { Basket } from "./Basket";
 import Playing from "./Playing";
 import { useLocation } from "react-router-dom";
-import logoImage from "../images/Logo.png-660"; // Import the image
+import logoImage from "../images/Logo.png-660"; 
 
 const TopBar = () => {
   const [showFilterDropdown, setShowFilterDropdown] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const location = useLocation(); // Get the current route path
+  const location = useLocation(); 
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);

@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import { calculateTotalPrice } from "./Basket";
 import { useBasket } from "./BasketContext";
-import confirmationImage from "../images/Fallout-Guy.webp"; // Update the path and file name
+import confirmationImage from "../images/Fallout-Guy.webp"; 
 
 const Confirmation = () => {
   const { basket } = useBasket();
@@ -15,7 +15,6 @@ const Confirmation = () => {
       <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="w-full md:w-3/5 lg:w-2/5 xl:w-1/3 bg-white p-6 shadow-md rounded-lg mt-4">
           <div className="flex">
-            {/* Image div with fixed width and height */}
             <div style={{ width: "200px", height: "200px" }}>
               <img
                 src={confirmationImage}
